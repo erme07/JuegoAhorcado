@@ -2,7 +2,7 @@
 <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
 <<                                  >>
 <<  Practicas de programacion       >>
-<<  pequeño juego "El ahorcado" V1  >>
+<<  pequeï¿½o juego "El ahorcado" V1  >>
 <<                                  >>
 <<  autor: E.Medina                 >>
 <<                                  >>
@@ -19,9 +19,9 @@
 //prototipos de las funciones:
 
 void intro1();                             //bienvenida al juego
-void intro2();                             //pequeña reseña del funcionamiento del juego
+void intro2();                             //pequeï¿½a reseï¿½a del funcionamiento del juego
 
-int select_palabra(char palabra[],char aux[]);   //selecciona la palabra a adivinar, devuelve el tamaño de la palabra
+int select_palabra(char palabra[],char aux[]);   //selecciona la palabra a adivinar, devuelve el tamaï¿½o de la palabra
 //subfuncion de select_palabra
 	int validar(int largo, char palabra[]);   //comprueba que la palabra ingresada sea valida
 	void ocultar_palabra(int largo, char aux[], char palabra[]);
@@ -41,8 +41,8 @@ void gotoxy(int x, int y);                 //selecciona las cooordenas de la con
 //funcion  principal:
 int main() {
 
-	system("mode con: cols=93 lines=25");   //defino el tamaño de la consola
-	system("color 70"); //colores colores de la consola
+	system("mode con: cols=93 lines=25");   //defino el tamaï¿½o de la consola
+	system("color 70"); //defino colores de la consola
 
 	int resultado,opcion=0,largo,*p;
 	char palabra[27],aux[27];
